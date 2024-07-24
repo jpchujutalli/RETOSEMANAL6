@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles_contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Tienda <span>Muebles</span></h1>
+        <div class="contenedor-navegacion">
+            <nav class="contenedor centrado">
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./Nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./Tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="./Blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./Galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="./Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="contacto centrado">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <form class="contacto_formulario">
+                <fieldset>
+                    <legend>TUS DATOS</legend>
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" placeholder="Tu Nombre" required >
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" placeholder="Tu Asunto" required >
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" placeholder="Tu Email" required >
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" placeholder="Tu Telefono" required minlength="9" maxlength="9" >
+                    </div>
+                    <div class="campo">
+                        <label for="tel">Mensaje:</label>
+                        <textarea rows="8" cols="30"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>PAIS</legend>
+                    <div class="campo">
+                        <label for="pais">Pais</label>
+                        <select id="pais">
+                            <option value="">-- Seleccione --</option>
+                            <option value="Mex">Mexico</option>
+                            <option value="Per">Peru</option>
+                            <option value="Col">Colombia</option>
+                            <option value="Arg">Argentina</option>
+                            <option value="Esp">España</option>
+                            <option value="Chi">Chile</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>INFORMACION EXTRA</legend>
+                    <div class="campo">
+                        <label for="cliente">Cliente</label>
+                        <input id="cliente" type="radio" name="tipo" value="cliente">
+                    </div>
+                    <div class="campo">
+                        <label for="proveedor">Proveedor</label>
+                        <input id="proveedor" type="radio" name="tipo" value="proveedor">
+                    </div>
+                    <div class="campo">
+                        <label for="categoria">Categoria de Interes</label>
+                        <input name="categoria" list="categoria" >
+                        <datalist id="categoria">
+                            <option value="Cocina"></option>
+                            <option value="Exterior"></option>
+                            <option value="Recamaras"></option>
+                            <option value="Oficina"></option>
+                            <option value="Televisor"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+                <button class="contacto__button" type="submit">
+                    ENVIAR FORMULARIO
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer centrado">
+            <section class="container-item">
+                <h3 class="titulo-footer">Categorias</h3>
+                <ul class="lista-footer">
+                    <a class="link-footer" href="./index.html">Cocina</a>
+                    <a class="link-footer" href="./index.html">Oficina</a>
+                    <a class="link-footer" href="./index.html">Jardin</a>
+                    <a class="link-footer" href="./index.html">Cochera</a>
+                    <a class="link-footer" href="./index.html">Dormitorio</a>
+                </ul>
+            </section>
+            <section class="container-item">
+                <h3 class="titulo-footer">Sobre Nosotros</h3>
+                <ul class="lista-footer">
+                    <a class="link-footer" href="./index.html">Nuestra Historia</a>
+                    <a class="link-footer" href="./index.html">Mision, vision y Valores</a>
+                    <a class="link-footer" href="./index.html">Carreras</a>
+                    <a class="link-footer" href="./index.html">Politica de Privacidad</a>
+                    <a class="link-footer" href="./index.html">Terminos del Servicio</a>
+                </ul>
+            </section>
+            <section class="container-item">
+                <h3 class="titulo-footer">Soporte</h3>
+                <ul class="lista-footer">
+                    <a class="link-footer" href="./index.html">Preguntas Frecuentes</a>
+                    <a class="link-footer" href="./index.html">Ayuda en linea</a>
+                    <a class="link-footer" href="./index.html">Confianza y Seguridad</a>
+                </ul>
+            </section>
+        </div>
+        <p class="derechos">Todos los derechos Reservados, TiendaMuebles</p>
+    </footer>
+</body>
+</html>

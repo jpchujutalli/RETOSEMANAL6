@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*, *:before, *:after {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0 10px;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #037bc0;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.centrado {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* ************* MAIN ************* */
+
+.contacto {
+    padding: 50px 0 0 0;
+}
+
+.contacto__titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 0 0 20px 0;
+}
+
+.contacto_formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    background-color: rgb(0, 84, 133);
+    color: white;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.campo {
+    line-height: 32px;
+    display: flex;
+    font-family: Raleway;
+    margin-bottom: 20px;
+}
+
+label {
+    flex-basis: 100px;
+}
+
+input:not([type='radio']) {
+    flex: 1;
+    border: 1px solid rgb(225, 225, 225);
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+    flex: 1;
+    height: 172px;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+select {
+    flex: 1;
+    padding: 10px;
+}
+
+.ontenedor__flex {
+    line-height: 32px;
+    display: flex;
+    font-family: Raleway;
+}
+
+.contacto__button {
+    background-color: #8cbc00;
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    height: 40px;
+}
+
+/* ************* FOOTER ************* */
+
+.footer {
+    margin-top: 50px;
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.container-footer {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.titulo-footer {
+    display: block;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.lista-footer {
+    text-align: left;
+    padding: 0;
+    line-height: 32px;
+}
+
+.link-footer {
+    display: block;
+    font-family: "Raleway", sans-serif;
+}
+
+.derechos {
+    margin: 50px 0 16px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}

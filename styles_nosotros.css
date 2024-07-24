@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*, *:before, *:after {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0 10px;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #037bc0;
+}
+
+.contenedor-navegacion {
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.centrado {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25px 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* *********Sobre Nosotros********* */
+
+.sobre__titulo {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 80px;
+}
+
+.sobre__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    
+}
+
+.sobre__img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+.sobre__parrafo {
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ************* FOOTER ************* */
+
+.footer {
+    margin-top: 50px;
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.container-footer {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.titulo-footer {
+    display: block;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.lista-footer {
+    text-align: left;
+    padding: 0;
+    line-height: 32px;
+}
+
+.link-footer {
+    display: block;
+    font-family: "Raleway", sans-serif;
+}
+
+.derechos {
+    margin: 50px 0 16px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+
